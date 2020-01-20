@@ -1,0 +1,1 @@
+obj/4.dep  obj/4.o: src/4.cpp src/input.hpp src/4.hpp

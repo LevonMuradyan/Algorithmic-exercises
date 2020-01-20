@@ -1,0 +1,1 @@
+obj/2.dep  obj/2.o: src/2.cpp src/input.hpp src/2.hpp

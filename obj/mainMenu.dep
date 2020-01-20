@@ -1,0 +1,4 @@
+obj/mainMenu.dep  obj/mainMenu.o: src/mainMenu.cpp src/util.hpp src/1.hpp \
+ src/2.hpp src/3.hpp src/4.hpp src/5.hpp src/6.hpp src/7.hpp src/8.hpp \
+ src/9.hpp src/14.hpp src/15.hpp src/17.hpp src/26.hpp src/27.hpp \
+ src/28.hpp
