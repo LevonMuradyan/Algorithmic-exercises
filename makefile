@@ -7,7 +7,7 @@ OBJECTS := $(patsubst src/%.cpp, obj/%.o, $(SOURCES))
 DEPENDS := $(patsubst src/%.cpp, obj/%.dep, $(SOURCESWITHMAIN))
 
 bin/program: ./bin lib/libStat.a src/mainMenu.cpp $(HEADERS)
-	@g++ src/mainMenu.cpp -L lib -l Stat -o bin/$(PROGNAME) -I /inc
+	@g++ -std=c++11 src/mainMenu.cpp -L lib -l Stat -o bin/$(PROGNAME) -I /inc
 	@echo "Succesfully..."
 inc/%.hpp: src/%.hpp ./inc
 	@ln -f $< $@

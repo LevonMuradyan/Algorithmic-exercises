@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstdlib> 
 #include <limits>
 #include "1.hpp"
 
@@ -41,7 +42,7 @@ double calcArithmOperation() {
             break;
         default:
             std::cout << "Error! operator is not correct" << std::endl;
-            exit(0);
+            std::exit(0);
             break;
     }
    

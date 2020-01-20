@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstdlib>
 #include "input.hpp"
 #include "2.hpp"
 
@@ -21,6 +22,6 @@ std::string gradesToLetters() {
         return "A";
     else {
         std::cout << "You must enter number between 0-100" << std::endl;    
-        exit(0);
+        std::exit(0);
     }   
 }

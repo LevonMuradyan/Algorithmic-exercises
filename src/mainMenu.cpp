@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstdlib>
 #include "util.hpp"
 
 int main() {
@@ -21,7 +22,7 @@ int main() {
     std::cout << "Number 13: " << "Guess A Number" << std::endl;
     std::cout << "Number 14: " << "Guess A Number(Roles Changed)" << std::endl;
     std::cout << "Number 15: " << "Minimum And Maximum" << std::endl;
-    std::cout << "Number 16: " << "Occurence Of Numbers" << std::endl;
+    std::cout << "Number 16: " << "Occurance Of Numbers" << std::endl;
     std::cout << "Number 17: " << "Decimal To Binary" << std::endl;
     std::cout << "Number 18: " << "Binary To Decimal" << std::endl;
     std::cout << "Number 19: " << "Remove A Number" << std::endl;
@@ -126,7 +127,7 @@ int main() {
             std::cout << isSubstring() << std::endl;
             break;
         default:
-            exit(-1);
+            std::exit(0);
             break;
     }
     

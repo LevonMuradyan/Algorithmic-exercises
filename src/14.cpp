@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstdlib>
 #include <fstream>
 #include <limits>
 #include "14.hpp"
@@ -134,7 +135,7 @@ void gameMenu() {
         catch (char) {
             printf("\nYou pressed `q` and exit the program\n");
             printf("If you want to play, please execute again!!!\n");
-            exit(0);
+            std::exit(0);
         }
     }
 }
