@@ -1,1 +1,0 @@
-obj/9.dep  obj/9.o: src/9.cpp src/input.hpp src/9.hpp

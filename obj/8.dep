@@ -1,1 +1,0 @@
-obj/8.dep  obj/8.o: src/8.cpp src/input.hpp src/8.hpp
