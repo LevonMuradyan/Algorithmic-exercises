@@ -4,6 +4,7 @@
 
 // O(n)
 bool isAnagram() {
+    std::cout << "Input 2 string to check if they are anagram" << std::endl;
     std::string s1, s2;
     getline(std::cin, s1);
     getline(std::cin, s2);

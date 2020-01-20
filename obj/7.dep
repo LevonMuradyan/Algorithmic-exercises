@@ -1,0 +1,1 @@
+obj/7.dep  obj/7.o: src/7.cpp src/input.hpp src/7.hpp

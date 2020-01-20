@@ -4,6 +4,7 @@
 
 // O(n)
 bool isSubstring() {
+    std::cout << "Enter 2 strings to check if one is Substring to another" << std::endl;
     std::string s1, s2;
     std::getline (std::cin, s1);
     std::getline (std::cin, s2);

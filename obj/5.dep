@@ -1,0 +1,1 @@
+obj/5.dep  obj/5.o: src/5.cpp src/input.hpp src/5.hpp
