@@ -3,6 +3,7 @@
 #include "7.hpp"
 
 bool isPalindrome() {
+    std::cout << "Check number is palindrome" << std::endl;
     int num, rev = 0;
     std::cin >> num;
     input(num);

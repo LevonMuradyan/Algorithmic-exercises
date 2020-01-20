@@ -3,6 +3,7 @@
 #include "9.hpp"
 
 bool isPowerOfTwo() {
+    std::cout << "Check number is power of 2" << std::endl;
     int num;
     std::cin >> num;
     input(num);

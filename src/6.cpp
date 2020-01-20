@@ -3,6 +3,7 @@
 #include "6.hpp"
 
 bool isPrime() {
+    std::cout << "Check number is prime" << std::endl;
     int num;
     std::cin >> num;
     input(num);

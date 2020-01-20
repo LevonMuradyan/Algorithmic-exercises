@@ -3,6 +3,7 @@
 #include "3.hpp"
 
 int calcTheSum() {
+    std::cout << "Enter your number" << std::endl;
     int num, sum = 0;
     std::cin >> num;
     input(num);
@@ -11,6 +12,6 @@ int calcTheSum() {
             sum += i;
         }
     }
-
+    std::cout << "Sum is = "; 
     return sum; 
 }

@@ -3,7 +3,8 @@
 #include "4.hpp"
 
 int sumOfDigits() {
-    int num, sum =0;
+    std::cout << "Enter your number" << std::endl;
+    int num, sum = 0;
     std::cin >> num;
     input(num);
     while (num) {
@@ -11,5 +12,6 @@ int sumOfDigits() {
         num /= 10;
     }
 
+    std::cout << "Sum of digits is = ";
     return sum;
 }

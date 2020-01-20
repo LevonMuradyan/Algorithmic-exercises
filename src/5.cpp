@@ -3,6 +3,7 @@
 #include "5.hpp"
 
 int inverseTheNumber() {
+    std::cout << "Enter your number for Inverse" << std::endl;
     int num, rev = 0;
     std::cin >> num;
     input(num);
@@ -12,5 +13,6 @@ int inverseTheNumber() {
         rev = rev * 10 + num % 10;
         num /= 10;
     }
+    std::cout << "Inversed number is = ";
     return rev;
 }
